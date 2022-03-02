@@ -10,7 +10,13 @@ class Main {
         Arraynumbers.addLast(30)
         Arraynumbers.add(1, 15)
         Arraynumbers.addFirst(5)
-        println(Arraynumbers.indexOf(10))
+
+        val Linkednumbers = LinkedList()
+        Linkednumbers.addFirst(30)
+        Linkednumbers.addFirst(20)
+        Linkednumbers.addFirst(10)
+        Linkednumbers.node(2)
+        Linkednumbers.add(2, 25)
 
     }
 }
