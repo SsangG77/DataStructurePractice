@@ -17,6 +17,11 @@ class Main {
         Linkednumbers.addFirst(10)
         Linkednumbers.node(2)
         Linkednumbers.add(2, 25)
-
+        Linkednumbers.remove(2)
+        Linkednumbers.removeLast()
+        Linkednumbers.size()
+        Linkednumbers.get(1)
+        Linkednumbers.addLast(4)
+        println(Linkednumbers.indexOf(2))
     }
 }
